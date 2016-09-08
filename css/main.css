@@ -1,3 +1,76 @@
-/*
-	Inserta tu CSS aqui
-*/
+
+
+header 	{
+	background:url(../img/grupal.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	padding-bottom:600px;
+	position:relative;
+}
+
+.boton {
+	border-radius: 5px;
+	border: 2px solid #FEB500;
+	font-size: 15px;
+	font-family: 'Open Sans';
+	background:#FEB500;
+	height: 40px;
+	width: 90px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align: center;
+	position:absolute;
+	left:100px;
+	top:50px;
+}
+
+.logo {
+	width:150%;
+	height:60%;
+	position:relative;
+	top:30px;
+	right:70px;
+}
+.nav {
+	margin-top: 30px;
+}
+.menu {
+	list-style: none;
+}
+
+.menu li {
+	display:inline-block;
+	position:relative;
+	left:80px;
+	top:30px;
+}
+.menu li a {
+	text-decoration: none;
+	padding-right: 15px;
+	font-family: 'Open Sans';
+	color: black;
+}
+.photo {
+	max-width: 100%;
+	padding-top: 30px;
+	font-family: 'Open Sans';
+}
+
+.tittle {
+	font-family: 'Open Sans';
+	font-weight: bolder;
+}
+footer {
+	background-color:#353031;
+	margin-top: 20px;
+
+}
+.pie {
+	font-family: Arial;
+	color:#D5CFDB;
+	padding-top:20px;
+	padding-bottom:20px;
+
+}
